@@ -2,3 +2,10 @@
 h5{
     color:1DD100 ;
 }
+
+
+.place{
+    border-bottom: 2px dashed rgb(194, 192, 192);
+    padding: 10px;
+    margin: 15px;
+}
