@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bus Ticketing Website</title>
+
+<!--Daisy Ui link-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+<!--Daisy Ui link-->
+<!--icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--icon link-->
 </head>
-<body>
-    <h1>Bus Website</h1>
+<body class="w-[1170px] m-auto">
+
+<header class="my-5">
+    <!--navigation bar start-->
+    <div class="navbar border-2">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg">
+                <li ><a >Home</a></li>
+                <li><a>About</a> </li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class=" text-2xl uppercase font-bold">Star Line</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-lg bg-none">
+            <li ><a>Home</a></li>
+            <li><a>About</a> </li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#1DD10033] border-[#1DD100] text-xl text-[#1DD100] font-bold">Bus <i class="fa-solid fa-van-shuttle"></i></a>
+        </div>
+      </div>
+    <!--navigation bar End-->
+
+    <!--hero section Start-->
+    <div class="hero min-h-[550px] my-10 rounded-[30px]" style="background-image: url(./images/banner.png);">
+        <div class="hero-overlay bg-opacity-60 rounded-[30px]"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-screen-md border-2">
+            <h1 class="mb-5 text-4xl uppercase font-bold">let's enjoy your trip with</h1>
+            <h1 class="mb-5 text-5xl uppercase font-bold text-[#1DD100]">Star Line</h1>
+            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button class="btn border-0 text-lg font-bold bg-[#1DD100]">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    <!--hero section End-->
+</header>
+
+<main>
+
+</main>
+
+<footer>
+
+</footer>
 </body>
-</html>git 
+</html>
