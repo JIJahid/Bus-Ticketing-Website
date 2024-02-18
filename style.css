@@ -1,6 +1,6 @@
 
 *{
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 
@@ -47,5 +47,15 @@
     font-size: 18px;
     font-weight: bold;
     border-radius: 12px  ;
+
+}
+
+.form  button{
+    margin-top: 10px;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    border-radius: 12px;
 
 }
