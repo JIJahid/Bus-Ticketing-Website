@@ -1,61 +1,7 @@
 
 *{
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 
-.place{
-    border-bottom: 2px dashed rgb(194, 192, 192);
-    padding: 10px;
-    margin: 15px;
-}
-.seat-img img{
-    justify-content: center !important;
-}
 
-.seat-selete{
-    border-top: 2px dashed rgb(194, 192, 192);
-   padding:  8px 0 ;
-    border-bottom: 2px dashed rgb(194, 192, 192);
-}
-.seat-selete2{
-   padding:  8px 0 ;
-    border-bottom: 2px dashed rgb(194, 192, 192);
-
-}
-.booking-button button{
-    width: 115px !important;
-    padding: 0;
-}
-.btn-join{
-    background: white;
-    border-radius: 12px ;
-    margin-top: 20px;
-    padding: 10px !important;
-}
-.btn-join input  {
-    width: 220px;
-    padding: 15px;
-    border-radius: 12px 0 0 12px;
-    outline: none;
-}
-.btn-join button{
-    width: 100px;
-    background: #1DD100;
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 12px  ;
-
-}
-
-.form  button{
-    margin-top: 10px;
-    padding: 15px;
-    width: 100%;
-    height: auto;
-    font-size: 18px;
-    border-radius: 12px;
-
-}
